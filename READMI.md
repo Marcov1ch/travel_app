@@ -6,9 +6,6 @@
 
 ```bash
 git clone https://github.com/Marcov1ch/travel_app.git
-cd travel_app
-
-# Python
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
@@ -17,6 +14,7 @@ pip install -r requirements.txt
 
 # Запуск
 ```bash
+cd travel_app
 python manage.py runserver
 ```
 
