@@ -17,18 +17,18 @@ pip install -r requirements.txt
 
 # Стек
 ## Frontend:
-1.1 React Native
-1.2 Type Script
-1.3 ...
+- React Native
+- Type Script
+- ...
 
 ## Backend
-2.1 Python
-2.2 Django (main app)
-2.3 FastAPI (микросервисы)
+- Python
+- Django (main app)
+- FastAPI (микросервисы)
 
 ## Data Base
-3.1 PostgreSQL
-3.2 Redis
+- PostgreSQL
+- Redis
 
 # Git branch
 **main** - прод
@@ -36,9 +36,3 @@ pip install -r requirements.txt
 **feature** - разработка новых функций или исправление
 **release** - подготовка к релизу
 **hotfix** - для исправлений в main ветке
-
-graph TD
-    A[React Native] -->|HTTP API| B[Django]
-    B -->|HTTP API| C[FastAPI]
-    B --> D[(PostgreSQL)]
-    C --> E[(Redis/Vector DB)]
