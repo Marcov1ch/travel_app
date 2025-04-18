@@ -15,6 +15,11 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
+# Запуск
+```bash
+python manage.py runserver
+```
+
 # Стек
 ## Frontend:
 - React Native
