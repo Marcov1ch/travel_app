@@ -1,0 +1,9 @@
+# Игнорируем папки
+/venv/
+
+# Игнорируем файлы
+.env
+*.log
+*.tmp
+*.txt
+!requirements.txt
