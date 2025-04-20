@@ -42,6 +42,7 @@ python manage.py runserver
 
 ## Архитектура
 
+```
 travel_app/                      
 ├── backend/                     # Все бэкенд-сервисы
 │   ├── travel_app/              # Основной Django-проект
@@ -84,3 +85,4 @@ travel_app/
 ├── .env
 ├── .gitignore
 └── README.md
+```
