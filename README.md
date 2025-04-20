@@ -2,8 +2,7 @@
 
 Приложение интерактивной карты с галереей фото и достижениями.
 
-# Установка
-
+## Установка
 ```bash
 git clone https://github.com/Marcov1ch/travel_app.git
 python -m venv venv
@@ -12,28 +11,26 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-# Запуск
+## Запуск
 ```bash
 cd travel_app
 python manage.py runserver
 ```
 
-# Стек
+## Стек
 ## Frontend:
 - React Native
 - Type Script
 - ...
-
-## Backend
+## Backend:
 - Python
 - Django (main app)
 - FastAPI (микросервисы)
-
-## Data Base
+## Data Base:
 - PostgreSQL
 - Redis
 
-# Git branch
+## Git branch
 - **main** - прод
 - **develop** - разработка (интеграция)
 - **feature** - разработка новых функций или исправление
@@ -41,7 +38,6 @@ python manage.py runserver
 - **hotfix** - для исправлений в main ветке
 
 ## Архитектура
-
 ```
 travel_app/                      
 ├── backend/                     # Все бэкенд-сервисы
